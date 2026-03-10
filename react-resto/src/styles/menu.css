@@ -1,11 +1,13 @@
 .menu{
   padding:80px 20px;
   text-align:center;
+  background-color: black;
 }
 
 .menu h2{
   font-size:32px;
   margin-bottom:40px;
+  color: white;
 }
 
 .menu-container{

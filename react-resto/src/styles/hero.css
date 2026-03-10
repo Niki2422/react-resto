@@ -1,0 +1,24 @@
+.hero{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+    background-image: url("https://images.unsplash.com/photo-1555992336-03a23c7b20ee");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content{
+  position: relative;
+  color: white;
+  text-align: center;
+}

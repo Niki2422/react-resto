@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/about"
 import Menu from "./components/Menu"
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Menu />
+      <Gallery />
 
     </>
   )

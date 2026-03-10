@@ -5,7 +5,7 @@
   align-items: center;
   position: relative;
 
-    background-image: url("https://images.unsplash.com/photo-1555992336-03a23c7b20ee");
+  background-image: url("../public/images/react-resto1.jpg");
   background-size: cover;
   background-position: center;
 }

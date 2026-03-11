@@ -26,3 +26,11 @@
 .nav-links li:hover {
   color: #f4a261;
 }
+
+@media (max-width:768px){
+
+  .nav-links{
+    display:none;
+  }
+
+}

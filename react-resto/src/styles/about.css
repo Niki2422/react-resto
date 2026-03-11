@@ -31,3 +31,16 @@
   line-height: 1.6;
   color: #555;
 }
+
+@media (max-width:768px){
+
+.about-container{
+  flex-direction:column;
+  text-align:center;
+}
+
+.about-img{
+  width:100%;
+}
+
+}

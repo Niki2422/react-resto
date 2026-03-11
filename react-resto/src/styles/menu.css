@@ -40,3 +40,11 @@
   font-weight:bold;
   color:#c0392b;
 }
+
+@media (max-width:768px){
+
+.menu-grid{
+  grid-template-columns:1fr;
+}
+
+}

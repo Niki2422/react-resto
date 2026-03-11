@@ -12,7 +12,7 @@ function Gallery() {
   ];
 
   return (
-    <section className="gallery">
+    <section className="gallery" data-aos="fade-left">
 
       <h2>Galería</h2>
 

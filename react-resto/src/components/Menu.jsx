@@ -30,7 +30,7 @@ function Menu() {
   ];
 
   return (
-    <section className="menu">
+    <section className="menu" data-aos="zoom-in">
 
       <h2>Nuestro Menú</h2>
 

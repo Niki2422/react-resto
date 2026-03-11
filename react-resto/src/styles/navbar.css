@@ -1,4 +1,6 @@
 .navbar {
+  position:relative;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,11 +16,22 @@
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   list-style: none;
 }
 
+.nav-links a{
+  text-decoration:none;
+  color:white;
+  font-size:18px;
+}
+
+.nav-links a:hover{
+  color:#f4a261;
+}
+
 .nav-links li {
+  padding:10px 0;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -27,10 +40,39 @@
   color: #f4a261;
 }
 
+.hamburger{
+  display:none;
+  font-size:28px;
+  cursor:pointer;
+}
+
+/* MOBILE */
+
 @media (max-width:768px){
 
   .nav-links{
-    display:none;
-  }
+  position:absolute;
+  top:70px;
+  left:0;
+  width:100%;
+  background:#111;
+  flex-direction:column;
+  align-items:center;
+  gap:25px;
+  padding:30px 0;
+  display:none;
+  z-index: 1000;
+  box-shadow:0 8px 20px rgba(0,0,0,0.5);
+
+}
+
+.nav-links.active{
+  display:flex;
+}
+
+.hamburger{
+  display:block;
+}
+
 
 }

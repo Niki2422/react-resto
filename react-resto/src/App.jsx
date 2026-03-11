@@ -10,6 +10,7 @@ import Menu from "./components/Menu"
 import Gallery from "./components/Gallery"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/Whatsapp-button";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,8 @@ function App() {
       <Gallery />
       <Contact />
       <Footer />
+
+      <WhatsAppButton />
 
     </>
   )

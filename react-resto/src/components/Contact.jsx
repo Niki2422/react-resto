@@ -2,7 +2,7 @@ import "../styles/Contact.css";
 
 function Contact() {
   return (
-    <section className="contact" data-aos="fade-left">
+    <section id="Contact" className="contact" data-aos="fade-left">
 
       <h2>Contacto</h2>
 
